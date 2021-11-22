@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: yellow;
+  font-size: 16px;
+}
+
+main {
+  position: absolute;
+  top: 50;
+  left: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  background: hsl(225, 100%, 98%);
+  padding: 100px;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid steelblue;
+  border-radius: 20px;
+}
+
+.card section {
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.section-icon {
+  display: flex;
+  flex-direction: space-evenly;
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.section-icon p {
+  margin-left: 15px;
+}
+
+.annual-plan span {
+    font-weight: 900;
+}
+
+.change {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.section-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-buttons a {
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.cancel {
+  background-color: hsl(225, 100%, 98%) !important;
+  color: black !important;
+}
+.summary {
+  text-align: center;
+  width: 80%;
+}
